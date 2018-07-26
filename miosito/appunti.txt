@@ -1,0 +1,17 @@
+> $ npm install --global vue-cli
+> $ vue init webpack nomeProgetto
+> $ cd nomeProgetto
+> $ npm install
+> $ npm run serve
+> $ npm run dev
+
+--------------------------------------------
+> per SASS : $ npm install --save-dev sass-loader node-sass
+--------------------------------------------
+> git remote rm origin
+> git remote add origin https://github.com/simo0103/Router.git
+> git commit -m "first commit"
+> git push -u origin master
+---------------------------------------------
+> Main.js = è l’entry point dell’applicazione
+> all'interno di <template> ci può essere solo un elemento ma se ne possono aggiungere altri se si racchiude tutto dentro un div
