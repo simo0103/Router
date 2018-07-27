@@ -1,0 +1,16 @@
+@import '_mixin.scss';
+
+ul {
+    @include flex;
+
+  li {
+      flex: 1;
+      text-align: center;
+      padding: 10px 0;
+
+    a {
+      font-size: $font-large;
+      color: $orange;
+    }
+  }
+}

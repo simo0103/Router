@@ -1,14 +1,14 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router';
 import Header from '@/components/Header'
 import Menu from '@/components/Menu'
-import Footer from '@/components/Footer'
 import About from '@/components/About'
+import Contacts from '@/components/Contacts'
+import Blog from '@/components/Blog'
 
+Vue.use(VueRouter)
 
-Vue.use(Router)
-
-export default new Router({
+export default new VueRouter({
   mode: 'history',
   routes: [
 
@@ -18,13 +18,27 @@ export default new Router({
       component: Menu,
       props: false
     },
-
     {
       path: '/about',
       name: 'About',
       component: About,
       props: false
 
+    },
+    {
+      path: '/contacts',
+      name: 'Contacts',
+      component: Contacts,
+      props: false
+
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: Blog,
+      props: false
+
     }
   ]
 })
+
