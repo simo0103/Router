@@ -11,6 +11,7 @@
 --------------------------------------------
 > git remote rm origin
 > git remote add origin https://github.com/simo0103/Router.git
+>git add .
 > git commit -m "first commit"
 > git push -u origin master
 ---------------------------------------------
