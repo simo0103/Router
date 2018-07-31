@@ -7,6 +7,7 @@
 
 --------------------------------------------
 > per SASS : $ npm install --save-dev sass-loader node-sass
+> per far watchare il sass -->  sass --watch src/sass:src/css
 --------------------------------------------
 > git remote rm origin
 > git remote add origin https://github.com/simo0103/Router.git
@@ -15,3 +16,14 @@
 ---------------------------------------------
 > Main.js = è l’entry point dell’applicazione
 > all'interno di <template> ci può essere solo un elemento ma se ne possono aggiungere altri se si racchiude tutto dentro un div
+> separare desktop e mobile: https://stackoverflow.com/questions/48515023/display-different-vuejs-components-for-mobile-browsers
+
+---------------------------------------------
+> FONT AWESOME
+ > installare font awesome -> $ npm install vue-awesome
+ > vedere sto video  https://www.youtube.com/watch?v=d8xvnnhhhZY
+ &::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900; (importante metterlo sennò la favicon non si vede)
+  content: "\f007";
+}

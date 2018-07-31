@@ -8,11 +8,10 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline; }
 
 a {
-  text-decoration: inherit;
+  text-decoration: none;
   color: inherit; }
   a:hover {
     cursor: pointer; }

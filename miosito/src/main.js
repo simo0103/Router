@@ -1,9 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
-//import Main from './components/Main.vue'
 
+Vue.component('font-awesome-icon')
 Vue.config.productionTip = false
+import '@/assets/fonts/all.css'
+import '@/assets/fonts/fontawesome.min.css'
+import '@/assets/fonts/fontawesome.css'
+
+
+
 
 const app = new Vue({
  // el: '#app',

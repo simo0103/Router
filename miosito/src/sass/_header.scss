@@ -1,12 +1,26 @@
 @import '_mixin.scss';
 
-ul {
+nav {
+
+  ul {
     @include flex;
+    overflow: hidden;
+    background-color: black;
 
   li {
+      @include flex-column;
+      align-items: center;
       flex: 1;
-      text-align: center;
-      padding: 10px 0;
+      padding: 14px;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      transition: border-color .1s ease-in;
+      &:hover {
+        border-bottom: 3px solid $orange;
+        a, a::after {
+          color: $white;
+        }
+      }
 
     a {
       font-size: $font-large;
@@ -14,3 +28,22 @@ ul {
     }
   }
 }
+
+.menu {
+  position: relative;
+
+    a {
+      display: flex;
+      justify-content: center;
+     &:after {
+        @include font-awesome;
+        content: "\f107";
+        visibility: visible;
+        color: $orange;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
+
