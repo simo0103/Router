@@ -28,3 +28,19 @@
   font-weight: 900; (importante metterlo sennò la favicon non si vede)
   content: "\f007";
 }
+---------------------------------------------
+> CALENDAR
+> https://docs.vcalendar.io/
+> $npm install v-calendar
+
+---------------------------------------------
+> EVENT CALENDAR
+> https://www.npmjs.com/package/vue-event-calendar
+> $ npm install vue-event-calendar --save
+
+---------------------------------------------
+
+> CREARE UN CALENDARIO
+> importare una libreria esterna chiamata Moment.js (http://momentjs.com/)
+> https://nick-basile.com/blog/post/building-a-calendar-with-vuejs
+

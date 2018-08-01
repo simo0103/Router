@@ -1,13 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
-
-Vue.component('font-awesome-icon')
-Vue.config.productionTip = false
+import vueEventCalendar from 'vue-event-calendar'
 import '@/assets/fonts/all.css'
 import '@/assets/fonts/fontawesome.min.css'
 import '@/assets/fonts/fontawesome.css'
+import 'vue-event-calendar/dist/style.css'
 
+Vue.component('font-awesome-icon')
+
+Vue.config.productionTip = false
+Vue.use(vueEventCalendar, {locale: 'it'})
 
 
 

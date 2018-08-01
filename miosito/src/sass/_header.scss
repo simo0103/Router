@@ -21,6 +21,10 @@ nav {
         }
       }
 
+      &:focus {
+        outline: none;
+      }
+
     span {
       font-size: $font-large;
       color: $orange;

@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Menu from '@/components/Menu'
 import About from '@/components/About'
 import Contacts from '@/components/Contacts'
-import Blog from '@/components/Blog'
+import Events from '@/components/Events'
 import Css from '../css/style.css'
 
 Vue.use(VueRouter)
@@ -34,9 +34,9 @@ export default new VueRouter({
 
     },
     {
-      path: '/blog',
-      name: 'Blog',
-      component: Blog,
+      path: '/events',
+      name: 'Events',
+      component: Events,
       props: false
 
     }
